@@ -1801,7 +1801,7 @@ if (messageType === MessageType.text)
    };
 
 
-if (text.includes('.motivasi')){
+if (text.includes('.Motivasi')){
 conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil',MessageType.text, {quoted: m});
 }
 if (messageType === MessageType.text)
